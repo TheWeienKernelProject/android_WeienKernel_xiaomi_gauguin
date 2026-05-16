@@ -1,0 +1,17 @@
+name: Setting up
+
+on:
+  workflow_dispatch:
+jobs:
+  set:
+    env:
+        GH_TOKEN: ${{ github.token }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+      checks: read
+    steps:
+    - name: setup
+      run: |
+       sh ~/setup.sh 
