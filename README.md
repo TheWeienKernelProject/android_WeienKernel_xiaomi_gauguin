@@ -9,7 +9,7 @@ Linux Kernel 4.19.325-cip130-st14-perf
 | **Kprobes** | ✅ |
 | **BPF** | ✅ |
 | **KernelSU 32486** | ✅ |
-Fetures Morer
+Fetures Morer...
 
 # Fetures Will Supported Things (Maybe?)
 None
@@ -18,7 +18,7 @@ None
 | Host | Version |
 |---------|-------------|
 | **AOSP Clang** | r563880c |
-| **Ubuntu24.04** | 24.04 |
+| **Ubuntu** | 24.04 |
 
 
 # Last
