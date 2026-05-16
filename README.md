@@ -15,7 +15,7 @@ note9pro的增强内核
 | **OverlayFS** | ✅ |
 
 # Fetures Supported Things (Maybe?) 未来支持的东西?
-None 暂时没有
+KVM(Try Fix Build Kernel正在尝试修复文件编译)
 
 # Build Use This:
 | Host主机 | Version版本 |
