@@ -1,5 +1,8 @@
 note9pro gauguin exhanced kernel
-Linux Kernel 4.19.325-cip130-st14-perf
+| Kernel Version | 
+|----------------|
+| **Linux Kernel 4.19.325-cip130-st14-perf
+** |
 
 | Supported | Satus |
 |---------|-------------|
