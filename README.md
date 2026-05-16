@@ -11,7 +11,7 @@ note9pro gauguin exhanced kernel
 | **Kprobes** | ✅ |
 | **BPF** | ✅ |
 | **KernelSU 32486** | ✅ |
-| **OverlayFS** | 🚧 |
+| **OverlayFS** | Boot Testing |
 Fetures More
 
 # Fetures Will Supported Things (Maybe?)
