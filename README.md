@@ -27,3 +27,4 @@ KVM(Try Fix Build Kernel正在尝试修复文件编译)
 # Last
 I Will Been Actively to Addon More Config In Futures!
 未来我会添加更多配置在内核中
+(仅附加配置lineage-23.2分支)
