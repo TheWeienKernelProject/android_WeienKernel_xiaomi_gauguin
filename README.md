@@ -30,3 +30,7 @@ None没有什么
 I Will Been Actively to Addon More Config In Futures!
 未来我会添加更多配置在内核中
 (仅附加配置lineage-23.2分支)
+
+# Will Soon Maybe
+In Before Some Day Will Relased 2.0-Kernel That ResukiSU sufus and other
+可能之后发布2.0内核 集成resukisu sufus
