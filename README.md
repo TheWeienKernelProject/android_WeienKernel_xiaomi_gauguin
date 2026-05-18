@@ -4,6 +4,8 @@ note9pro的增强内核
 |----------------|
 | Linux Kernel 4.19.325-cip130-st14-perf |
 
+# ⚠未发布的内核出现无限重启状态 正在排查问题⚠ #
+
 | Supported 支持 | Satus 状态 |
 |---------|-------------|
 | **EFI (Testing测试中)** | ✅ |
@@ -15,7 +17,7 @@ note9pro的增强内核
 | **OverlayFS** | ✅ |
 
 # Fetures Supported Things (Maybe?) 未来支持的东西?
-KVM(已开始修复工作 需要几周)
+None没有什么
 
 # Build Use This:
 | Host主机 | Version版本 |
