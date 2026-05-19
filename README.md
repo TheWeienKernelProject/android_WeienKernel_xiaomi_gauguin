@@ -12,7 +12,7 @@ note9pro的增强内核
 | **DroidSpaces** | ✅ |
 | **Kprobes** | ✅ |
 | **BPF** | ✅ |
-| **ResukiSU 34904** | ✅ |
+| **ResukiSU** | ✅ |
 | **sufus 2.1.0** | ✅ |
 | **kpm** | ✅ |
 | **OverlayFS** | ✅ |
