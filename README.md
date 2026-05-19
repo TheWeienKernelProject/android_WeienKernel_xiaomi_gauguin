@@ -1,6 +1,7 @@
 note9pro gauguin exhanced kernel
 note9pro的增强内核
 
+# ⚠ 有人发现在AviumUI16.2出现无WLAN问题 尽量LineageOS23.2启动 ⚠ #
 | Kernel Version 内核版本 | 
 |----------------|
 | Linux Kernel 4.19.325-cip132-st16-perf |
