@@ -40,3 +40,4 @@ note9pro的增强内核
 I Will Been Actively to Addon More Config In Futures!
 未来我会添加更多配置在内核中
 (仅附加配置lineage-23.2分支)
+由于Kernel1.0分支会出现无限重启状况 所以Kernel1.0将不再维护转为Kernel2.0
