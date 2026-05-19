@@ -2,7 +2,7 @@ note9pro gauguin exhanced kernel
 note9pro的增强内核
 | Kernel Version 内核版本 | 
 |----------------|
-| Linux Kernel 4.19.325-cip130-st14-perf |
+| Linux Kernel 4.19.325-cip132-st16-perf |
 
 # 2.0-kernel #
 | Supported 支持 | Satus 状态 |
