@@ -1,4 +1,6 @@
 # The Weien Kernel Project #
+## ⚠ Nightly Kernel ##
+注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 请谨慎使用!！!
 note9pro gauguin exhanced kernel
 note9pro的增强内核
 
