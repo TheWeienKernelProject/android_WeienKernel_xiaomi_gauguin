@@ -1,6 +1,7 @@
 # The Weien Kernel Project #
 ## ⚠ Nightly Kernel ##
-注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 请不要使用! 尝试修补bug中
+Resukisu方案 zy.sh:注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 请不要使用! 尝试修补bug中
+KernelSU方案 ksu.sh 无bug
 # info
 note9pro gauguin exhanced kernel
 note9pro的增强内核
@@ -15,7 +16,7 @@ note9pro的增强内核
 |---------|-------------|
 | **2026年5月19日 北京时间17点** | 同步LineageOS内核 cip130更新到cip132 st14更新到st16 |
 
-## 2.0-kernel 
+## zy kernel support
 | Supported 支持 | Satus 状态 |
 |---------|-------------|
 | **EFI (Testing测试中)** | ✅ |
@@ -26,6 +27,17 @@ note9pro的增强内核
 | **ResukiSU** | ✅ |
 | **sufus 2.1.0** | ✅ |
 | **kpm** | ✅ |
+| **OverlayFS** | ✅ |
+
+## ksu kernel support
+| Supported 支持 | Satus 状态 |
+|---------|-------------|
+| **EFI (Testing测试中)** | ✅ |
+| **ACPI (Testing测试中)** | ✅ |
+| **DroidSpaces** | ✅ |
+| **Kprobes** | ✅ |
+| **BPF** | ✅ |
+| **KernelSU** | ✅ |
 | **OverlayFS** | ✅ |
 
 ## Build Use This: 构建用这个：
