@@ -1,5 +1,5 @@
 cd ~/android_kernel_xiaomi_gauguin
-sh ~/android_kernel_xiaomi_gauguin/setup.sh 
+sh ~/android_kernel_xiaomi_gauguin/zy.sh 
 patch -p1 < patch2.patch
 
 # Fix Resukisu Error In 4.19.325
