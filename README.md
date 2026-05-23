@@ -28,6 +28,7 @@ note9pro的增强内核
 | **sufus 2.1.0** | ✅ |
 | **kpm** | ✅ |
 | **OverlayFS** | ✅ |
+| **kvm** | 🚧 |
 
 ## ksu kernel support
 | Supported 支持 | Satus 状态 |
