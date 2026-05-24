@@ -1,6 +1,12 @@
 # The Weien Kernel Project #
 ## ⚠ Nightly Kernel ##
-注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 请不要使用! 尝试修补bug中
+注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 如果你不接受系统不稳定请不要使用! 
+
+## 目前发现的bug ##
+1.文件管理器无法创建Android/data/temp目录 No such file or dirctory 
+2.kvm efi无法加载
+3.系统卡死
+正在修复中...
 
 # info
 note9pro gauguin exhanced kernel
