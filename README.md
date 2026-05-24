@@ -11,7 +11,7 @@ note9pro的增强内核
 |----------------|
 | Linux Kernel 4.19.325-cip132-st16-perf |
 
-## Update log 更新日志
+## Kernel Version Update log 内核版本更新日志
 | Date日期 | 内容Info |
 |---------|-------------|
 | **2026年5月19日 北京时间17点** | 同步LineageOS内核 cip130更新到cip132 st14更新到st16 |
@@ -21,16 +21,16 @@ note9pro的增强内核
 |---------|-------------|
 | **EFI (Testing测试中)** | ✅ |
 | **ACPI (Testing测试中)** | ✅ |
+| **KVM(Testing测试中)** | ✅ |
 | **DroidSpaces** | ✅ |
 | **Kprobes** | ✅ |
 | **BPF** | ✅ |
 | **ResukiSU** | ✅ |
-| **sufus 2.1.0** | ✅ |
+| **sufus** | ✅ |
 | **kpm** | ✅ |
 | **OverlayFS** | ✅ |
-| **kvm** | 🚧 |
 
-## ksu kernel support
+## ksu kernel support (Not)
 | Supported 支持 | Satus 状态 |
 |---------|-------------|
 | **EFI (Testing测试中)** | ✅ |
