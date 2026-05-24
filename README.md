@@ -1,10 +1,15 @@
 # The Weien Kernel Project #
 ## ⚠ Nightly Kernel ##
-Resukisu方案 zy.sh:注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 请不要使用! 尝试修补bug中
-KernelSU方案 ksu.sh 无bug
+注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 请不要使用! 尝试修补bug中
+
 # info
 note9pro gauguin exhanced kernel
 note9pro的增强内核
+
+# kvm warning
+if kvm build has error pleased looking for 
+如果编译内核遇到kvm错误请看这里
+github.com/liuweien339-sys/fix-gauguin-los23.2-kvm-bug
 
 ## ⚠ 有人发现在AviumUI16.2出现无WLAN问题 尽量LineageOS23.2启动 ⚠ ##
 | Kernel Version 内核版本 | 
@@ -16,7 +21,7 @@ note9pro的增强内核
 |---------|-------------|
 | **2026年5月19日 北京时间17点** | 同步LineageOS内核 cip130更新到cip132 st14更新到st16 |
 
-## zy kernel support
+## kernel support
 | Supported 支持 | Satus 状态 |
 |---------|-------------|
 | **EFI (Testing测试中)** | ✅ |
@@ -28,17 +33,6 @@ note9pro的增强内核
 | **ResukiSU** | ✅ |
 | **sufus** | ✅ |
 | **kpm** | ✅ |
-| **OverlayFS** | ✅ |
-
-## ksu kernel support (Not)
-| Supported 支持 | Satus 状态 |
-|---------|-------------|
-| **EFI (Testing测试中)** | ✅ |
-| **ACPI (Testing测试中)** | ✅ |
-| **DroidSpaces** | ✅ |
-| **Kprobes** | ✅ |
-| **BPF** | ✅ |
-| **KernelSU** | ✅ |
 | **OverlayFS** | ✅ |
 
 ## Build Use This: 构建用这个：
