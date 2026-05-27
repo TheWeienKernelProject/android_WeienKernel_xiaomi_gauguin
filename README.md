@@ -1,21 +1,16 @@
 # The Weien Kernel Project #
 ## ⚠ Nightly Kernel ##
-注意! 经过实机测试 使用此内核容易在第二屏加载logo卡死/开机进入系统卡死 如果你不接受系统不稳定请换1.0kernel！
+注意! 经过实机测试 由于DroidSpaces某些配置导致系统不稳定 将来不再集成DroidSpaces 直到bug解决
 
 ## 目前发现的bug ##
-1.文件管理器无法创建Android/data/temp目录 No such file or dirctory 
-2.kvm efi无法加载
-3.系统卡死
-正在修复中...
+关闭DroidSpaces后 无
 
 # info
 note9pro gauguin exhanced kernel
 note9pro的增强内核
 
 # kvm warning
-if kvm build has error pleased looking for 
-如果编译内核遇到kvm错误请看这里
-github.com/liuweien339-sys/fix-gauguin-los23.2-kvm-bug
+kvm的bug部分以在kernel2.0部分修复
 
 ## ⚠ 有人发现在AviumUI16.2出现无WLAN问题 尽量LineageOS23.2启动 ⚠ ##
 | Kernel Version 内核版本 | 
@@ -33,13 +28,12 @@ github.com/liuweien339-sys/fix-gauguin-los23.2-kvm-bug
 | **EFI (Testing测试中)** | ✅ |
 | **ACPI (Testing测试中)** | ✅ |
 | **KVM(Testing测试中)** | ✅ |
-| **DroidSpaces** | ✅ |
+| **DroidSpaces** | ❌ |
 | **Kprobes** | ✅ |
 | **BPF** | ✅ |
 | **ResukiSU** | ✅ |
 | **sufus** | ✅ |
 | **kpm** | ✅ |
-| **OverlayFS** | ✅ |
 
 ## Build Use This: 构建用这个：
 | Host主机 | Version版本 |
