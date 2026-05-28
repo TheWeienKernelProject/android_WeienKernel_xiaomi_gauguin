@@ -1,9 +1,9 @@
 # The Weien Kernel Project #
 ## ⚠ warning ##
-注意! 经过实机测试 可能系统不稳定 现在经过配置修复DroidSpaces成功
+注意! 经过实机测试 可能系统不稳定
 
 ## 目前发现的bug ##
-无
+kvm efi无法使用 正在尝试修复
 
 # info
 note9pro gauguin exhanced kernel
@@ -13,6 +13,7 @@ note9pro的增强内核
 kvm的bug部分以在kernel2.0部分修复
 
 ## ⚠ 有人发现在AviumUI16.2出现无WLAN问题 尽量LineageOS23.2启动 ⚠ ##
+
 | Kernel Version 内核版本 | 
 |----------------|
 | Linux Kernel 4.19.325-cip132-st16-perf |
