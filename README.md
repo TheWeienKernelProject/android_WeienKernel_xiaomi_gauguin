@@ -1,9 +1,9 @@
 # The Weien Kernel Project #
-## ⚠ Nightly Kernel ##
-注意! 经过实机测试 由于DroidSpaces某些配置导致系统不稳定 将来不再集成DroidSpaces 直到bug解决
+## ⚠ warning ##
+注意! 经过实机测试 可能系统不稳定 现在经过配置修复DroidSpaces成功
 
 ## 目前发现的bug ##
-关闭DroidSpaces后 无
+无
 
 # info
 note9pro gauguin exhanced kernel
@@ -28,7 +28,7 @@ kvm的bug部分以在kernel2.0部分修复
 | **EFI (Testing测试中)** | ✅ |
 | **ACPI (Testing测试中)** | ✅ |
 | **KVM(Testing测试中)** | ✅ |
-| **DroidSpaces** | ❌ |
+| **DroidSpaces** | ✅ |
 | **Kprobes** | ✅ |
 | **BPF** | ✅ |
 | **ResukiSU** | ✅ |
