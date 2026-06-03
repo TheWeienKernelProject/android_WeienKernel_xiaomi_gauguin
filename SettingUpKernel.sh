@@ -2,7 +2,7 @@ cd ~/android_kernel_xiaomi_gauguin
 sh ~/android_kernel_xiaomi_gauguin/zy.sh 
 patch -p1 < patch2.patch
 
-# Fix Resukisu Error In 4.19.325
+# Fix sufus Error In Kernel
 sed -i '/^#include <linux\/init.h>/a\
               #ifdef CONFIG_KSU_SUSFS_SUS_MOUNT\
               #include <linux/susfs_def.h>\
