@@ -1,6 +1,4 @@
 # The Weien Kernel Project #
-## ⚠ warning ##
-注意! 经过实机测试 可能系统不稳定
 
 ## Look Here ##
 ---------------
@@ -14,6 +12,7 @@ patch2.patch属于DroidSpaces项目 仅用于在内核附加
 ---------------
 ## 目前发现的bug ##
 kvm efi无法使用 正在尝试修复
+系统偶尔卡死 但是次数比之前显著少了许多
 
 # info
 note9pro gauguin exhanced kernel
