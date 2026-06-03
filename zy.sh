@@ -1,4 +1,6 @@
 #!/bin/sh
+# This Is ©2026 ReSukiSU Project Only Do Setting Up Kernel
+# 这个sh属于Resukisu项目 仅用于在内核附加
 set -eu
 
 GKI_ROOT=$(pwd)
