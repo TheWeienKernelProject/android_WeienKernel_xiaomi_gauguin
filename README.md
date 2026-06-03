@@ -5,9 +5,11 @@
 ## Look Here ##
 ---------------
 That zy.sh is ©2026 ReSukiSU Project Only Do Setting Up Kernel
+------
 zy.sh属于Resukisu项目 仅用于在内核附加
 ---------------
 This Is patch2.patch is ©2026 DroidSpaces Project Only Do Setting Up Kernel
+------
 patch2.patch属于DroidSpaces项目 仅用于在内核附加
 ---------------
 ## 目前发现的bug ##
