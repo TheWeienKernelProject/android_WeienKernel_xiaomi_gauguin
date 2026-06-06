@@ -1,5 +1,5 @@
 # The Weien Kernel Project #
-
+⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
 ## Look Here ##
 ---------------
 That zy.sh is ©2026 ReSukiSU Project Only Do Setting Up Kernel
