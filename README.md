@@ -45,6 +45,7 @@ kvm的bug部分以在kernel2.0部分修复
 | **sufus** | ✅ |
 | **kpm** | ✅❌ |
 
+*Testing测试中代表无法使用但已集成
 ## Build Use This: 构建用这个：
 | Host主机 | Version版本 |
 |---------|-------------|
