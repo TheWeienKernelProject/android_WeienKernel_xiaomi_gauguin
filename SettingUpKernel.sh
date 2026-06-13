@@ -1,5 +1,5 @@
-cd ~/android_kernel_xiaomi_gauguin
-sh ~/android_kernel_xiaomi_gauguin/zy.sh 
+cd ~/android_WeienKernel_xiaomi_gauguin
+sh ~/android_WeienKernel_xiaomi_gauguin/zy.sh 
 patch -p1 < patch2.patch
 
 # Fix sufus Error In Kernel
