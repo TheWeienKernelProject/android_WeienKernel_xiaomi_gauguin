@@ -1,15 +1,17 @@
 # The Weien Kernel Project #
 ⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
 
+## KERNEL WARNING ##
+> 偶尔出现显示无网络实际有情况
+> AviumUI16.2出现无网络问题
+> KVM EFI ACPI无法使用
+
 ## U Can Build With This: 你可以这样编译 ##
 ```
 cd android_WeienKernel_xiaomi_gauguin
 ```
 ```
-bash zy.sh
-```
-```
-patch -p1 < patch2.patch
+bash SettingUpKernel.sh
 ```
 ```
 make vendor/xiaomi/gauguin.config vendor/lito-perf_defconfig vendor/addon.config
@@ -36,14 +38,9 @@ kvm efi无法使用 正在尝试修复
 note9pro gauguin exhanced kernel
 note9pro的增强内核
 
-# kvm warning
-kvm的bug部分以在kernel2.0部分修复
-
-## ⚠ 有人发现在AviumUI16.2出现无WLAN问题 尽量LineageOS23.2启动 ⚠ ##
-
 | Kernel Version 内核版本 | 
 |----------------|
-| Linux Kernel 4.19.325-cip132-st16-perf |
+| Linux Kernel 4.19.325-WeienKernel-cip132-st16-perf |
 
 ## Kernel Version Update log 内核版本更新日志
 | Date日期 | 内容Info |
