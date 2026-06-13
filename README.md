@@ -3,7 +3,7 @@
 
 ## KERNEL WARNING ##
 > 1.偶尔出现显示无网络实际有情况
-> 2.AviumUI16.2出现无网络问题
+> 2.AviumUI16.2出现无网络问题   
 > 3.KVM EFI ACPI无法使用
 
 ## U Can Build With This: 你可以这样编译 ##
