@@ -1,15 +1,15 @@
 # The Weien Kernel Project #
 ⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
 ## Look Here ##
----------------
-That zy.sh is ©2026 ReSukiSU Project Only Do Setting Up Kernel
-------
-zy.sh属于Resukisu项目 仅用于在内核附加
----------------
-This Is patch2.patch is ©2026 DroidSpaces Project Only Do Setting Up Kernel
-------
-patch2.patch属于DroidSpaces项目 仅用于在内核附加
----------------
+> ---------------
+> That zy.sh is ©2026 ReSukiSU Project Only > Do Setting Up Kernel
+> ------
+> zy.sh属于Resukisu项目 仅用于在内核附加
+> ---------------
+> This Is patch2.patch is ©2026 DroidSpaces > Project Only Do Setting Up Kernel
+> ------
+> patch2.patch属于DroidSpaces项目 仅用于在内核附加
+> ---------------
 ## 目前发现的bug ##
 kvm efi无法使用 正在尝试修复
 系统偶尔卡死 但是次数比之前显著少了许多
