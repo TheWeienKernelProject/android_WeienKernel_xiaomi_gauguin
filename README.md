@@ -1,5 +1,23 @@
 # The Weien Kernel Project #
 ⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
+
+## U Can Build With This: 你可以这样编译 ##
+```
+cd android_WeienKernel_xiaomi_gauguin
+```
+```
+bash zy.sh
+```
+```
+patch -p1 < patch2.patch
+```
+```
+make vendor/xiaomi/gauguin.config vendor/lito-perf_defconfig vendor/addon.config
+```
+```
+make -j$(nproc) Image | tee ~/build.log
+```
+
 ## Look Here ##
 > ---------------
 > That zy.sh is ©2026 ReSukiSU Project Only > Do Setting Up Kernel
