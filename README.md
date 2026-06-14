@@ -2,7 +2,7 @@
 ⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
 
 ## KERNEL WARNING ##
-> 1.偶尔出现显示无网络实际有情况
+> 1.网络显示错误 导致偶尔无网
 > 2.AviumUI16.2出现无网络问题   
 > 3.KVM EFI ACPI无法使用
 
