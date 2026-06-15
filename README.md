@@ -7,8 +7,8 @@ note9pro的增强内核
 ⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
 
 ## KERNEL WARNING ##
-> 1.网络显示错误 导致偶尔无网 AviumUI16.2无网
-> 2.手机偶尔启动到第二屏卡死 随后重启恢复
+> 1.网络显示错误 导致偶尔无网        
+> 2.手机偶尔到第二屏卡死自动重启恢复
 > 3.KVM EFI ACPI无法使用
 
 ## U Can Build With This: 你可以这样编译 ##
@@ -38,7 +38,7 @@ make -j$(nproc) Image | tee ~/build.log
 
 | Kernel Version 内核版本 | 
 |----------------|
-| Linux Kernel 4.19.325-WeienKernel-cip132-st16-perf |
+| Linux Kernel 4.19.325-cip132-st16-perf |
 
 ## Kernel Version Update log 内核版本更新日志
 | Date日期 | 内容Info |
