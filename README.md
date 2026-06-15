@@ -1,9 +1,14 @@
 # The Weien Kernel Project #
+
+# info
+note9pro gauguin exhanced kernel
+note9pro的增强内核
+
 ⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
 
 ## KERNEL WARNING ##
-> 1.网络显示错误 导致偶尔无网
-> 2.AviumUI16.2出现无网络问题   
+> 1.网络显示错误 导致偶尔无网 AviumUI16.2无网
+> 2.手机偶尔启动到第二屏卡死 随后重启恢复
 > 3.KVM EFI ACPI无法使用
 
 ## U Can Build With This: 你可以这样编译 ##
@@ -22,21 +27,14 @@ make -j$(nproc) Image | tee ~/build.log
 
 ## Look Here ##
 > ---------------
-> That zy.sh is ©2026 ReSukiSU Project Only > Do Setting Up Kernel
+> That zy.sh is ©2026 ReSukiSU Project Only Do Setting Up Kernel
 > ------
 > zy.sh属于Resukisu项目 仅用于在内核附加
 > ---------------
-> This Is patch2.patch is ©2026 DroidSpaces > Project Only Do Setting Up Kernel
+> This Is patch2.patch is ©2026 DroidSpaces Project Only Do Setting Up Kernel
 > ------
 > patch2.patch属于DroidSpaces项目 仅用于在内核附加
 > ---------------
-## 目前发现的bug ##
-kvm efi无法使用 正在尝试修复
-系统偶尔卡死 但是次数比之前显著少了许多
-
-# info
-note9pro gauguin exhanced kernel
-note9pro的增强内核
 
 | Kernel Version 内核版本 | 
 |----------------|
