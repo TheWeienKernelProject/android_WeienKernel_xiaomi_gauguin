@@ -6,6 +6,11 @@ note9pro的增强内核
 
 ⚠ReSukiSU最近取消了KPM的支持如果需要就用6.4Build不需要就继续更新⚠
 
+# How Install 安装指南
+1.下载releases提供的ak3包
+2.在Recovery里面卡刷刷入
+3.等待启动
+
 ## KERNEL WARNING ##
 > 1.网络显示错误 导致偶尔无网        
 > 2.手机偶尔到第二屏卡死自动重启恢复
