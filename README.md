@@ -1,5 +1,8 @@
 # The Weien Kernel Project #
 
+## 重要 ##
+内核经过实机测试 不会出现无法启动状况
+
 # info
 note9pro gauguin exhanced kernel
 note9pro的增强内核
@@ -11,10 +14,9 @@ note9pro的增强内核
 2.在Recovery里面卡刷刷入       
 3.等待启动            
 
-## KERNEL WARNING ##
-> 1.网络显示错误 导致偶尔无网        
-> 2.手机偶尔到第二屏卡死自动重启恢复
-> 3.KVM EFI ACPI无法使用
+## KERNEL WARNING ##      
+> 1.手机偶尔到第二屏卡死自动重启恢复
+> 2.KVM EFI ACPI无法使用
 
 ## U Can Build With This: 你可以这样编译 ##
 ```
