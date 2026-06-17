@@ -14,7 +14,8 @@ note9pro的增强内核
 2.在Recovery里面卡刷刷入       
 3.等待启动            
 
-## KERNEL WARNING ##      
+## KERNEL WARNING ##
+> ~~网络偶尔无法连接~~ 最新内核已修复
 > 1.手机偶尔到第二屏卡死自动重启恢复
 > 2.KVM EFI ACPI无法使用
 
