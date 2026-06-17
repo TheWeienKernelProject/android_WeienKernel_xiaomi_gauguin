@@ -43,12 +43,13 @@ make -j$(nproc) Image | tee ~/build.log
 
 | Kernel Version 内核版本 | 
 |----------------|
-| Linux Kernel 4.19.325-cip132-st16-perf |
+| Linux Kernel 4.19.325-cip133-st17-perf |
 
 ## Kernel Version Update log 内核版本更新日志
 | Date日期 | 内容Info |
 |---------|-------------|
 | **2026年5月19日 北京时间17点** | 同步LineageOS内核 cip130更新到cip132 st14更新到st16 |
+| **2026年6月17日 北京时间20点** | 同步LineageOS内核 cip132更新到cip133 st16更新到st17 |
 
 ## kernel support
 | Supported 支持 | Satus 状态 |
