@@ -2,7 +2,7 @@
 VERSION = 4
 PATCHLEVEL = 19
 SUBLEVEL = 325
-EXTRAVERSION = -WeienKernel
+EXTRAVERSION = -WeienKernelDev
 NAME = "People's Front"
 
 # *DOCUMENTATION*
