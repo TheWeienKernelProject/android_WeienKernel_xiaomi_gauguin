@@ -32,8 +32,8 @@
 #include  <linux/getcpu.h>
 #include  <linux/task_io_accounting_ops.h>
 #include  <linux/seccomp.h>
-#include  <linux/cpu.h>
-#include  <linux/personality.h>
+#include   <linux/cpu.h>
+#include   <linux/personality.h>
 #include <linux/ptrace.h>
 #include <linux/fs_struct.h>
 #include <linux/file.h>
@@ -691,13 +691,6 @@ error:
 
 SYSCALL_DEFINE3(setresuid, uid_t, ruid, uid_t, euid, uid_t, suid)
 {
-
-#ifdef CONFIG_KSU_SUSFS
-    if (ksu_handle_setresuid(ruid, euid, suid)) {
-        pr_info("Something wrong with ksu_handle_setresuid()\n");
-    }
-#endif
-
     return __sys_setresuid(ruid, euid, suid);
 }
 
