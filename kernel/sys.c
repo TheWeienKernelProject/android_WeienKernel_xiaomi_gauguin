@@ -11,29 +11,29 @@
 #include <linux/mman.h>
 #include <linux/reboot.h>
 #include <linux/prctl.h>
-#include <linux/highuid.h>
-#include <linux/fs.h>
-#include <linux/kmod.h>
-#include <linux/perf_event.h>
-#include <linux/resource.h>
-#include <linux/kernel.h>
-#include <linux/workqueue.h>
-#include <linux/capability.h>
-#include <linux/device.h>
-#include <linux/key.h>
-#include <linux/times.h>
-#include <linux/posix-timers.h>
-#include <linux/security.h>
-#include <linux/dcookies.h>
-#include <linux/suspend.h>
-#include <linux/tty.h>
-#include <linux/signal.h>
-#include <linux/cn_proc.h>
-#include <linux/getcpu.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/seccomp.h>
-#include <linux/cpu.h>
-#include <linux/personality.h>
+#include  <linux/highuid.h>
+#include  <linux/fs.h>
+#include  <linux/kmod.h>
+#include  <linux/perf_event.h>
+#include  <linux/resource.h>
+#include  <linux/kernel.h>
+#include  <linux/workqueue.h>
+#include  <linux/capability.h>
+#include  <linux/device.h>
+#include  <linux/key.h>
+#include  <linux/times.h>
+#include  <linux/posix-timers.h>
+#include  <linux/security.h>
+#include  <linux/dcookies.h>
+#include  <linux/suspend.h>
+#include  <linux/tty.h>
+#include  <linux/signal.h>
+#include  <linux/cn_proc.h>
+#include  <linux/getcpu.h>
+#include  <linux/task_io_accounting_ops.h>
+#include  <linux/seccomp.h>
+#include  <linux/cpu.h>
+#include  <linux/personality.h>
 #include <linux/ptrace.h>
 #include <linux/fs_struct.h>
 #include <linux/file.h>
@@ -623,12 +623,6 @@ SYSCALL_DEFINE1(setuid, uid_t, uid)
  * This function implements a generic ability to update ruid, euid,
  * and suid.  This allows you to implement the 4.4 compatible seteuid().
  */
-
-#ifdef CONFIG_KSU_SUSFS
-    if (ksu_handle_setresuid(ruid, euid, suid)) {
-        pr_info("Something wrong with ksu_handle_setresuid()\n");
-    }
-#endif
 
 long __sys_setresuid(uid_t ruid, uid_t euid, uid_t suid)
 {
