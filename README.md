@@ -1,5 +1,4 @@
 # The Weien Kernel Project #
-# 内核遇到编译错误 将停止维护直到解决 #
 # 🎆 恭喜 Android17QPR0已发布! WeienKernel将在第一时间对LineageOS24.0的内核做适配! 🎆
 
 ## 重要 ##
