@@ -1,6 +1,4 @@
 # The Weien Kernel Project #
-# 🎆 恭喜 Android17QPR0已发布! WeienKernel将在第一时间对LineageOS24.0的内核做适配! 🎆
-
 ## 重要 ##
 内核经过实机测试 不会出现无法启动状况
 
@@ -33,17 +31,6 @@ make vendor/xiaomi/gauguin.config vendor/lito-perf_defconfig vendor/addon.config
 ```
 make -j$(nproc) Image | tee ~/build.log
 ```
-
-## Look Here ##
-> ---------------
-> That zy.sh is ©2026 ReSukiSU Project Only Do Setting Up Kernel
-> ------
-> zy.sh属于Resukisu项目 仅用于在内核附加
-> ---------------
-> This Is patch2.patch is ©2026 DroidSpaces Project Only Do Setting Up Kernel
-> ------
-> patch2.patch属于DroidSpaces项目 仅用于在内核附加
-> ---------------
 
 | Kernel Version 内核版本 | 
 |----------------|
