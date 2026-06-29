@@ -43,12 +43,7 @@ EXPORT_SYMBOL_GPL(init_uts_ns);
 
 /* FIXED STRINGS! Don't touch! */
 const char linux_banner[] =
-    "==============="
-    "The Weien Kernel Project For gauguin\n"
-    "Powered By liuweien339-sys\n"
-    "Thank You For Install !!!\n"
-    "==============="
-	"Linux Kernel Version " UTS_RELEASE " (" LINUX_COMPILE_BY "@"
+	"Linux Version " UTS_RELEASE " (" LINUX_COMPILE_BY "@"
 	LINUX_COMPILE_HOST ") (" LINUX_COMPILER ") " UTS_VERSION "\n";
 
 const char *linux_banner_ptr = linux_banner;
