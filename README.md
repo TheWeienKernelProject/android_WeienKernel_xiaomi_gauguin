@@ -1,6 +1,7 @@
 # The Weien Kernel Project #
-# 重要 #
-项目停更 由于我的Note9Pro坏了无法再次测试内核 也无精力再维护 未来转向开发一加Turbo6X
+项目无法继续更新 由于我的Note9Pro坏了无法再次测试内核 也无精力再维护 未来转向开发一加Turbo6X的维护工作 再会
+
+-2026.7.7 
 
 # info
 note9pro gauguin exhanced kernel
