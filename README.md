@@ -1,5 +1,7 @@
 # The Weien Kernel Project #
-项目无法继续更新 由于我的Note9Pro坏了无法再次测试内核 也无精力再维护 未来转向开发一加Turbo6X的维护工作 再会
+每周六更新PreRelease版本 因为内核无法测试 所以只能PreRelease
+
+项目无法继续更新 由于我的Note9Pro坏了无法再次测试内核 也无精力再维护 未来转向开发一加Turbo6X的维护工作 再会 
 
 -2026.7.7 
 
