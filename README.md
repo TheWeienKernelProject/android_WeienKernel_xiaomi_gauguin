@@ -1,9 +1,5 @@
 # The Weien Kernel Project #
-每周六更新PreRelease版本 因为内核无法测试 所以只能PreRelease
-
-项目无法继续更新 由于我的Note9Pro坏了无法再次测试内核 也无精力再维护 未来转向开发一加Turbo6X的维护工作 再会 
-
--2026.7.7 
+每周六更新PreRelease版本 因为内核无法测试
 
 # info
 note9pro gauguin exhanced kernel
@@ -39,12 +35,6 @@ make -j$(nproc) Image | tee ~/build.log
 |----------------|
 | Linux Kernel 4.19.325-cip133-st17-perf |
 
-## Kernel Version Update log 内核版本更新日志
-| Date日期 | 内容Info |
-|---------|-------------|
-| **2026年5月19日 北京时间17点** | 同步LineageOS内核 cip130更新到cip132 st14更新到st16 |
-| **2026年6月17日 北京时间20点** | 同步LineageOS内核 cip132更新到cip133 st16更新到st17 |
-
 ## kernel support
 | Supported 支持 | Satus 状态 |
 |---------|-------------|
@@ -59,13 +49,3 @@ make -j$(nproc) Image | tee ~/build.log
 | **kpm** | ✅❌ |
 
 *Testing测试中代表无法使用但已集成
-## Build Use This: 构建用这个：
-| Host主机 | Version版本 |
-|---------|-------------|
-| **AOSP Clang** | r563880c |
-| **Ubuntu** | 24.04 |
-
-
-## Last 最后
-I Will Been Actively to Addon More Config In Futures!
-未来我会添加更多配置在内核中
