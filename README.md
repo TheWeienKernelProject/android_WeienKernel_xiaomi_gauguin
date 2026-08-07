@@ -38,14 +38,8 @@ make -j$(nproc) Image | tee ~/build.log
 ## kernel support
 | Supported 支持 | Satus 状态 |
 |---------|-------------|
-| **EFI (Testing测试中)** | ✅ |
-| **ACPI (Testing测试中)** | ✅ |
-| **KVM(Testing测试中)** | ✅ |
+| **KVM(用不了)** | ✅ |
 | **DroidSpaces** | ✅ |
-| **Kprobes** | ✅ |
 | **BPF** | ✅ |
 | **ResukiSU** | ✅ |
 | **sufus** | ✅ |
-| **kpm** | ✅❌ |
-
-*Testing测试中代表无法使用但已集成
