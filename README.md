@@ -15,10 +15,15 @@ note9pro的增强内核
 cd android_WeienKernel_xiaomi_gauguin
 ```
 ```
-bash SettingUpKernel.sh
+使用内核集成脚本 Use Kernel Setup Scripts
 ```
+正常构建情况下输入
 ```
-make vendor/xiaomi/gauguin.config vendor/lito-perf_defconfig vendor/addon.config
+make buildconfig/gauguin_twkp_defconfig
+```
+原构建情况下输入
+```
+make buildconfig/gauguin_defconfig
 ```
 ```
 make -j$(nproc) Image | tee ~/build.log
