@@ -25,8 +25,7 @@ make buildconfig/gauguin_twkp_defconfig
 ```
 make buildconfig/gauguin_defconfig
 ```
-
-
+最后构建内核
 ```
 make -j$(nproc) Image | tee ~/build.log
 ```
