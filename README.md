@@ -25,6 +25,8 @@ make buildconfig/gauguin_twkp_defconfig
 ```
 make buildconfig/gauguin_defconfig
 ```
+
+
 ```
 make -j$(nproc) Image | tee ~/build.log
 ```
