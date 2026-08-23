@@ -4,9 +4,9 @@
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include "cam_sensor_cmn_header.h"
+#include "../cam_sensor_utils/cam_sensor_cmn_header.h"
 #include "cam_sensor_i2c.h"
-#include "cam_cci_dev.h"
+#include "../cam_cci/cam_cci_dev.h"
 
 int32_t cam_cci_i2c_read(struct cam_sensor_cci_client *cci_client,
 	uint32_t addr, uint32_t *data,
