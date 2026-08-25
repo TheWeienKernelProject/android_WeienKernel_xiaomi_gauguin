@@ -19,11 +19,11 @@ cd android_WeienKernel_xiaomi_gauguin
 ```
 正常构建情况下输入
 ```
-make buildconfig/gauguin_twkp_defconfig
+make vendor/lito-perf_defconfig vendor/xiaomi/gauguin.cnfig vendor/addon.config
 ```
 原构建情况下输入
 ```
-make buildconfig/gauguin_defconfig
+make vendor/lito-perf_defconfig vendor/xiaomi/gauguin.cnfig
 ```
 最后构建内核
 ```
