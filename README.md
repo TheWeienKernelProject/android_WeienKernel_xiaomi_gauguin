@@ -41,3 +41,4 @@ make -j$(nproc) Image | tee ~/build.log
 | **BPF** | ✅ |
 | **ResukiSU** | ✅ |
 | **sufus** | ✅ |
+| **NoMount** | 🚧 |
