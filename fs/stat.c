@@ -11,6 +11,7 @@
 #include <linux/file.h>
 #include <linux/highuid.h>
 #include <linux/fs.h>
+#include "internal.h"
 #include <linux/namei.h>
 #include <linux/security.h>
 #include <linux/cred.h>
