@@ -10,26 +10,6 @@ note9pro的增强内核
 2.在Recovery里面卡刷刷入       
 3.等待启动            
 
-## U Can Build With This: 你可以这样编译 ##
-```
-cd android_WeienKernel_xiaomi_gauguin
-```
-```
-使用内核集成脚本 Use Kernel Setup Scripts
-```
-正常构建情况下输入
-```
-make vendor/lito-perf_defconfig vendor/xiaomi/gauguin.cnfig vendor/addon.config
-```
-原构建情况下输入
-```
-make vendor/lito-perf_defconfig vendor/xiaomi/gauguin.cnfig
-```
-最后构建内核
-```
-make -j$(nproc) Image | tee ~/build.log
-```
-
 | Kernel Version 内核版本 | 
 |----------------|
 | Linux Kernel 4.19.325-cip133-st17-perf |
