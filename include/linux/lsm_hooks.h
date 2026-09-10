@@ -1469,18 +1469,19 @@
  */
 union security_list_options {
     void (*sb_delete)(struct super_block *sb);
-    int (*move_mount)(struct path *from_path, struct path *to_path);
-	#define LSM_HOOK(RET, DEFAULT, NAME, ...) RET (*NAME)(__VA_ARGS__);
-	#include "lsm_hook_defs.h"
-	#undef LSM_HOOK
+    int (*move_mount)(const struct path *const from_path,
+                      const struct path *const to_path);
+    #define LSM_HOOK(RET, DEFAULT, NAME, ...) RET (*NAME)(__VA_ARGS__);
+    #include "lsm_hook_defs.h"
+    #undef LSM_HOOK
 };
 
 struct security_hook_heads {
-    struct list_head sb_delete;
-    struct list_head move_mount;
-	#define LSM_HOOK(RET, DEFAULT, NAME, ...) struct hlist_head NAME;
-	#include "lsm_hook_defs.h"
-	#undef LSM_HOOK
+    struct hlist_head sb_delete;
+    struct hlist_head move_mount;
+    #define LSM_HOOK(RET, DEFAULT, NAME, ...) struct hlist_head NAME;
+    #include "lsm_hook_defs.h"
+    #undef LSM_HOOK
 } __randomize_layout;
 
 /*
