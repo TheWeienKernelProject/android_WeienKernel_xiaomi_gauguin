@@ -824,6 +824,16 @@ void security_sb_free(struct super_block *sb)
     sb->s_security = NULL;
 }
 
+void security_sb_delete(struct super_block *sb)
+{
+    call_void_hook(sb_delete, sb);
+}
+
+int security_move_mount(struct path *from_path, struct path *to_path)
+{
+    return call_int_hook(move_mount, 0, from_path, to_path);
+}
+
 void security_free_mnt_opts(void **mnt_opts)
 {
 	if (!*mnt_opts)
