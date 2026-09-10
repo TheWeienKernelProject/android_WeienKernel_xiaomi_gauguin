@@ -829,7 +829,8 @@ void security_sb_delete(struct super_block *sb)
     call_void_hook(sb_delete, sb);
 }
 
-int security_move_mount(struct path *from_path, struct path *to_path)
+int security_move_mount(const struct path *const from_path,
+                        const struct path *const to_path)
 {
     return call_int_hook(move_mount, 0, from_path, to_path);
 }
