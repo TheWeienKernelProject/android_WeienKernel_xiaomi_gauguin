@@ -449,8 +449,6 @@ void generic_shutdown_super(struct super_block *sb)
 		cgroup_writeback_umount();
 
 		evict_inodes(sb);
-        /* only nonzero refcount inodes can have marks */
-        fsnotify_sb_delete(sb);
         security_sb_delete(sb);
 
 		if (sb->s_dio_done_wq) {
