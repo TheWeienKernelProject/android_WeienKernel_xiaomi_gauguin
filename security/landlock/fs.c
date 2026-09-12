@@ -60,7 +60,7 @@ static void release_inode(struct landlock_object *const object)
 	 * hook_sb_delete() will wait for us to finish iput().
 	 */
 	sb = inode->i_sb;
-	atomic_long_inc(&landlock_superblock(sb)->inode_refs);
+	atomic_inc(&landlock_superblock(sb)->inode_refs);
 	spin_unlock(&object->lock);
 	/*
 	 * Because object->underobj was not NULL, hook_sb_delete() and
@@ -74,8 +74,8 @@ static void release_inode(struct landlock_object *const object)
 	 */
 
 	iput(inode);
-	if (atomic_long_dec_and_test(&landlock_superblock(sb)->inode_refs))
-		wake_up_var(&landlock_superblock(sb)->inode_refs);
+	if (atomic_dec_and_test(&landlock_superblock(sb)->inode_refs))
+    wake_up_atomic_t(&landlock_superblock(sb)->inode_refs);
 }
 
 static const struct landlock_object_underops landlock_fs_underops = {
@@ -515,8 +515,8 @@ static void hook_sb_delete(struct super_block *const sb)
 	if (prev_inode)
 		iput(prev_inode);
 	/* Waits for pending iput() in release_inode(). */
-	wait_var_event(&landlock_superblock(sb)->inode_refs,
-		       !atomic_long_read(&landlock_superblock(sb)->inode_refs));
+	wait_on_atomic_t(&landlock_superblock(sb)->inode_refs,
+                 atomic_t_wait, TASK_UNINTERRUPTIBLE);
 }
 
 /*
