@@ -1,5 +1,4 @@
 # The Weien Kernel Project #
-每周更新PreRelease版本
 
 # info
 note9pro gauguin exhanced kernel
@@ -22,3 +21,8 @@ note9pro的增强内核
 | **ResukiSU** | ✅ |
 | **sufus** | ✅ |
 | **NoMount** | ✅ |
+
+# Backported area backport支持列表
+| Supported 支持 | Satus 状态 |
+|---------|-------------|
+| **5.15 Fetures LandLock** | ✅ |
