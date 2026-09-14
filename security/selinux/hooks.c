@@ -1733,7 +1733,7 @@ selinux_determine_inode_label(const struct task_security_struct *tsec,
 				 struct inode *dir,
 				 const struct qstr *name, u16 tclass,
 				 u32 *_new_isid)
-｛
+{
     const struct superblock_security_struct *sbsec = selinux_superblock(dir->i_sb);
 
 	if ((sbsec->flags & SE_SBINITIALIZED) &&
