@@ -26,3 +26,15 @@ note9pro的增强内核
 | Supported 支持 | Satus 状态 |
 |---------|-------------|
 | **5.15 Fetures LandLock** | ✅ |
+
+鸣谢名单
+
+ReSukiSU - @ReSukiSU
+
+NonGKI_Kernel_Build_2nd @JackA1ltman
+
+ReKernel @Sakion-Team
+
+DroidSpaces @ravindu644
+
+NoMount @maxsteeel
