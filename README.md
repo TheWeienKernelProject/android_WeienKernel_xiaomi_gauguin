@@ -1,40 +1,12 @@
-# The Weien Kernel Project #
+TWKP停更信
+------------
+由于种种原因 我们将不再维护gauguin的LineageOS23.2分支自定义内核
 
-# info
-note9pro gauguin exhanced kernel
-note9pro的增强内核
+后面主线转向一加Turbo6X的2个分支
 
-# How Install 安装指南
-1.下载releases提供的ak3包    
-2.在Recovery里面卡刷刷入       
-3.等待启动            
+我们计划当gauguin有LineageOS24.0时继续维护 但永远不会真正releases(因为无法测试)
 
-| Kernel Version 内核版本 | 
-|----------------|
-| Linux Kernel 4.19.325-cip136-st20-perf |
+敬请期待!
 
-## kernel support
-| Supported 支持 | Satus 状态 |
-|---------|-------------|
-| **DroidSpaces** | ✅ |
-| **BPF** | ✅ |
-| **ResukiSU** | ✅ |
-| **sufus** | ✅ |
-| **NoMount** | ✅ |
-
-# Backported area backport支持列表
-| Supported 支持 | Satus 状态 |
-|---------|-------------|
-| **5.15 Fetures LandLock** | ✅ |
-
-鸣谢名单
-
-ReSukiSU - @ReSukiSU
-
-NonGKI_Kernel_Build_2nd @JackA1ltman
-
-ReKernel @Sakion-Team
-
-DroidSpaces @ravindu644
-
-NoMount @maxsteeel
+TheWeienKernelProject(TWKP)
+2026年9月26日
