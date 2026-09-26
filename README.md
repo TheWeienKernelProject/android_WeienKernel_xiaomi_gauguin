@@ -11,7 +11,7 @@ note9pro的增强内核
 
 | Kernel Version 内核版本 | 
 |----------------|
-| Linux Kernel 4.19.325-cip133-st17-perf |
+| Linux Kernel 4.19.325-cip136-st20-perf |
 
 ## kernel support
 | Supported 支持 | Satus 状态 |
