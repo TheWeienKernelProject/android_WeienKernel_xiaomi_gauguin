@@ -57,7 +57,6 @@ cd kernel
 4.Integrate things
 
 ```
-cd gauguin
 sed -i '171s/error/warning/g' drivers/kernelsu/Kbuild
 sed -i '82s/-dirty//g' drivers/kernelsu/Kbuild
 curl -Lo susfs.patch https://raw.githubusercontent.com/JackA1ltman/NonGKI_Kernel_Build_2nd/refs/heads/mainline/Patches/Patch/susfs_patch_to_4.19.patch || exit 1
@@ -67,11 +66,11 @@ bash inline.sh
 cd ~/
 git clone https://github.com/Sakion-Team/Re-Kernel/ -b main --depth=1
 git clone https://github.com/maxsteeel/nomount/ -b master --depth=1
-mkdir ~/gauguin/fs/nomount
-mkdir ~/gauguin/drivers/rekernel
-cp ~/Re-Kernel/Integrate/rekernel/* ~/gauguin/drivers/rekernel
-cp ~/nomount/kernel/src/* ~/gauguin/fs/nomount
-cd ~/gauguin/
+mkdir ~/kernel/fs/nomount
+mkdir ~/kernel/drivers/rekernel
+cp ~/Re-Kernel/Integrate/rekernel/* ~/kernel/drivers/rekernel
+cp ~/nomount/kernel/src/* ~/kernel/fs/nomount
+cd ~/kernel/
 bash ~/Re-Kernel/Integrate/patches.sh 
 bash ~/nomount/kernel/setup.sh     
 ```
